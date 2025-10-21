@@ -1,15 +1,16 @@
-# How to install nvm, node, npm, pnpm
-I know you will forget how to do this shit, so, here's how-to
+# How to install NVM, Node.js, NPM and PNPM
+I know you will forget how to do this shit at some point, so, here's how to
 
-## Install nvm (Node Version Manager)
+## Install NVM (Node Version Manager)
 > ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash```
 
+Now, you can install Node.js and NPM
 ### Then, apply
 > ```nvm install --lts```
 >
 > ```nvm use --lts```
 
-This will install the **lts node version**. If you want some specific node's version, for example:
+This will install the **latest lts version of node**. If you want some specific node's version, for example:
 > ```nvm install 20.16.0```
 >
 > ```nvm use 20.16.0```
@@ -19,8 +20,7 @@ This will install the **lts node version**. If you want some specific node's ver
 >
 > ```npm -v```
 
-
-## Install pnpm
+## Install PNPM
 > ```npm install -g pnpm```
 
 ### Test in the shell
