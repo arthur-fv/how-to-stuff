@@ -9,6 +9,8 @@ I recommend cleaning up any existing versions of the programs using the followin
 
 ## Install NVM (Node Version Manager)
 > ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash```
+### Test in the shell
+> ```nvm -v```
 
 Now, you can install Node.js and NPM
 ### Then, apply
