@@ -1,6 +1,12 @@
 # How to install NVM, Node.js, NPM and PNPM
 I know you will forget how to do this shit at some point, so, here's how to
 
+## Before anything else...
+I recommend cleaning up any existing versions of the programs using the following (if installed using apt):
+> ```sudo apt remove -y nodejs npm```
+>
+> ```sudo apt autoremove -y```
+
 ## Install NVM (Node Version Manager)
 > ```curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/master/install.sh | bash```
 
