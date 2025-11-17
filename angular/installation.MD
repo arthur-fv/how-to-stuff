@@ -5,6 +5,8 @@ This one will be quick
 
 ## Just copy and paste
 
+This will install angular in global enviroment
+
 > ```pnpm install -g @angular/cli```
 
 And, tah-dah! That's all.
